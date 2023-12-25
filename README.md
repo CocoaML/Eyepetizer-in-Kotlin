@@ -135,3 +135,11 @@ Kotlin中when的出现替代了switch，但其功能更加强大。
 讲了这么多，学习kotlin虽然不是必须的，但是应对趋势发展，并且学习成本不高，那么多掌握一门技能，百利而无一害。
 
 
+### gradle升级-(运行修复)ml 2023-12-25
+android gradle plugin version: 7.3.0
+
+gradle version: 7.4
+
+ext.kotlin_version = '1.7.10'
+
+感谢`Ruheng`分享。
