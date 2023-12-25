@@ -3,10 +3,6 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <devices>
-          <device id="Nexus 4" />
-          <device id="Nexus 5" />
-        </devices>
         <target>android-22</target>
       </config>
     </shared>
@@ -14,20 +10,41 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f770f1ce-334d-4035-8da0-5c5300854c13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/MainActivity.kt" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/network_https_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0-rc-1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0-rc-1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0-rc-1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0-rc-1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eyepetizer-in-Kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Eyepetizer-in-Kotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/zml/.android/avd/Pixel_2_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -52,22 +69,6 @@
         </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/MainActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-              <folding>
-                <element signature="e#39#910#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,7 +113,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1" />
+        <entry key="$PROJECT_DIR$" value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -1598,8 +1599,8 @@
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-annotation-processing/1.1.2-4/kotlin-annotation-processing-1.1.2-4-sources.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-annotation-processing/1.1.2-4/kotlin-annotation-processing-1.1.2-4.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" />
+                            <option value="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" />
+                            <option value="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/com/android/tools/build/builder/3.0.0-alpha4/builder-3.0.0-alpha4.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/com/android/tools/lint/lint/26.0.0-alpha4/lint-26.0.0-alpha4.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/com/android/tools/external/org-jetbrains/uast/26.0.0-alpha4/uast-26.0.0-alpha4.jar" />
@@ -1682,8 +1683,8 @@
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-annotation-processing/1.1.2-4/kotlin-annotation-processing-1.1.2-4-sources.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-annotation-processing/1.1.2-4/kotlin-annotation-processing-1.1.2-4.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" />
+                            <option value="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" />
+                            <option value="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/com/android/tools/build/builder/3.0.0-alpha4/builder-3.0.0-alpha4.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/com/android/tools/lint/lint/26.0.0-alpha4/lint-26.0.0-alpha4.jar" />
                             <option value="/private/var/folders/1x/x2jjb0k11qd35d2sx8hdvy7c0000gn/T/AppTranslocation/9B1385A3-C1FF-4C9B-9789-01810330F7F9/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/com/android/tools/external/org-jetbrains/uast/26.0.0-alpha4/uast-26.0.0-alpha4.jar" />
@@ -1751,138 +1752,138 @@
               <option name="name" value="Eyepetizer-in-Kotlin" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/build-cache-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/composite-builds" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ide-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/installation-beacon" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/internal-android-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/internal-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/jvm-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/logging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/platform-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/plugin-development" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/process-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/resources-s3" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/resources-sftp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/test-kit" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/testing-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/testing-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/testing-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/workers" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/ant-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-base-services-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-base-services-groovy-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-cli-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-core-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-docs-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-installation-beacon-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-jvm-services-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-launcher-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-logging-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-messaging-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-model-core-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-model-groovy-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-native-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-process-services-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-resources-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-runtime-api-info-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-script-kotlin-0.9.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-script-kotlin-compiler-plugin-0.9.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-script-kotlin-tooling-builders-0.9.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-script-kotlin-tooling-models-0.9.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-tooling-api-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-wrapper-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/groovy-all-2.4.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-announce-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-antlr-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-build-cache-http-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-build-comparison-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-build-init-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-code-quality-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-composite-builds-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-dependency-management-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-diagnostics-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ear-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ide-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ide-native-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ide-play-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ivy-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-jacoco-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-javascript-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-groovy-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-java-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-jvm-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-native-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-scala-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-maven-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-osgi-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-platform-base-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-platform-jvm-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-platform-native-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-platform-play-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-plugin-development-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-plugin-use-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-plugins-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-publish-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-reporting-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-resources-http-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-resources-s3-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-resources-sftp-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-scala-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-signing-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-test-kit-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-testing-base-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-testing-jvm-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-testing-native-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-tooling-api-builders-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-workers-4.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/announce" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/antlr" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/base-services" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/base-services-groovy" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/build-cache-http" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/build-comparison" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/build-init" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/cli" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/code-quality" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/composite-builds" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/core" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/dependency-management" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/diagnostics" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ear" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ide" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ide-native" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ide-play" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/installation-beacon" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/internal-android-performance-testing" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/internal-integ-testing" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/internal-performance-testing" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/internal-testing" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/ivy" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/jacoco" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/javascript" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/jvm-services" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-groovy" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-java" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-jvm" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-native" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/language-scala" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/launcher" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/logging" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/maven" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/messaging" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/model-core" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/model-groovy" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/native" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/osgi" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/platform-base" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/platform-jvm" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/platform-native" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/platform-play" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/plugin-development" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/plugin-use" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/plugins" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/process-services" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/publish" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/reporting" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/resources" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/resources-http" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/resources-s3" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/resources-sftp" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/scala" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/signing" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/test-kit" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/testing-base" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/testing-jvm" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/testing-native" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/tooling-api" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/tooling-api-builders" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/workers" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/src/wrapper" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/ant-1.9.6.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-base-services-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-base-services-groovy-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-cli-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-core-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-docs-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-installation-beacon-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-jvm-services-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-launcher-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-logging-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-messaging-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-model-core-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-model-groovy-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-native-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-process-services-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-resources-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-runtime-api-info-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-script-kotlin-0.9.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-script-kotlin-compiler-plugin-0.9.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-script-kotlin-tooling-builders-0.9.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-script-kotlin-tooling-models-0.9.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-tooling-api-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/gradle-wrapper-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/groovy-all-2.4.11.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-announce-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-antlr-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-build-cache-http-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-build-comparison-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-build-init-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-code-quality-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-composite-builds-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-dependency-management-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-diagnostics-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ear-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ide-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ide-native-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ide-play-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-ivy-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-jacoco-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-javascript-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-groovy-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-java-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-jvm-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-native-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-language-scala-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-maven-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-osgi-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-platform-base-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-platform-jvm-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-platform-native-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-platform-play-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-plugin-development-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-plugin-use-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-plugins-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-publish-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-reporting-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-resources-http-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-resources-s3-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-resources-sftp-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-scala-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-signing-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-test-kit-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-testing-base-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-testing-jvm-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-testing-native-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-tooling-api-builders-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/gradle-workers-4.0.jar" />
+                  <option value="$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-4.0-rc-1-all/f2e4agya6jovmpf9txk9t7844/gradle-4.0-rc-1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -1953,10 +1954,14 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectId" id="2a1Q88HrGOWkC7jBlgfMRIA481w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
@@ -2116,48 +2121,48 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="device.picker.selection" value="59dd958e" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
-    <property name="android.project.structure.last.selected" value="app" />
-    <property name="android.project.structure.proportion" value="0.15" />
     <property name="DEBUGGABLE_DEVICE" value="vivo-vivo_x7-59dd958e" />
     <property name="DEBUGGABLE_PROCESS" value="com.tt.lvruheng.eyepetizer" />
-    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/MainActivity.kt&#10;spla&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/SplashActivity.kt&#10;Cach&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/CacheActivity.kt&#10;cache&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/CacheActivity.kt&#10;vide&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/VideoDetailActivity.kt&#10;do&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/DownloadAdapter.kt&#10;minf&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/MineFragment.kt&#10;watch&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/WatchActivity.kt&#10;home&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HomeAdatper.kt&#10;video&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/VideoDetailActivity.kt&#10;searc&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/SearchAdapter.kt&#10;maina&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/MainActivity.kt&#10;base&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/BaseFragment.kt&#10;ac&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/res/layout/activity_find_detail.xml&#10;homea&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HomeAdatper.kt&#10;Finde&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/FindDetailActivity.kt&#10;Video&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/VideoDetailActivity.kt&#10;homefr&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HomeFragment.kt&#10;findde&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/presenter/FindDetailPresenter.kt&#10;apise&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/network/ApiService.kt&#10;Find&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/FindDetailModel.kt&#10;rank&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/RankFragment.kt&#10;hotfr&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HotFragment.kt&#10;activity&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/res/layout/activity_main.xml&#10;homead&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HomeAdatper.kt&#10;hotad&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HotAdatpter.kt&#10;ranka&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/RankAdapter.kt&#10;hotbe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/HotBean.kt&#10;homebe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/HomeBean.kt&#10;videobe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/VideoBean.kt&#10;Findf&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/FindFragment.kt&#10;mine&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/res/layout/mine_fragment.xml&#10;Findad&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/FindAdapter.kt&#10;min&#9;null&#9;null&#10;ran&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/RankAdapter.kt&#10;Home&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HomeAdatper.kt&#10;RANK&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/RankAdapter.kt&#10;Hotbe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/HotBean.kt&#10;HO&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HomeFragment.kt&#10;hotmo&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/HotModel.kt&#10;api&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/network/api.kt&#10;Rank&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/RankFragment.kt&#10;Homefr&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HomeFragment.kt&#10;item&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/res/layout/item_find.xml&#10;Hot&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HotFragment.kt&#10;homebean&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/HomeBean.kt&#10;Api&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/network/api.kt&#10;Findbe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/FindBean.kt&#10;apiser&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/network/ApiService.kt&#10;ho&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HomeFragment.kt" />
     <property name="FullScreen" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/MainActivity.kt&#10;spla&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/SplashActivity.kt&#10;Cach&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/CacheActivity.kt&#10;cache&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/CacheActivity.kt&#10;vide&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/VideoDetailActivity.kt&#10;do&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/DownloadAdapter.kt&#10;minf&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/MineFragment.kt&#10;watch&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/WatchActivity.kt&#10;home&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HomeAdatper.kt&#10;video&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/VideoDetailActivity.kt&#10;searc&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/SearchAdapter.kt&#10;maina&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/MainActivity.kt&#10;base&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/BaseFragment.kt&#10;ac&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/res/layout/activity_find_detail.xml&#10;homea&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HomeAdatper.kt&#10;Finde&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/FindDetailActivity.kt&#10;Video&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/VideoDetailActivity.kt&#10;homefr&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HomeFragment.kt&#10;findde&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/presenter/FindDetailPresenter.kt&#10;apise&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/network/ApiService.kt&#10;Find&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/FindDetailModel.kt&#10;rank&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/RankFragment.kt&#10;hotfr&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HotFragment.kt&#10;activity&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/res/layout/activity_main.xml&#10;homead&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HomeAdatper.kt&#10;hotad&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HotAdatpter.kt&#10;ranka&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/RankAdapter.kt&#10;hotbe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/HotBean.kt&#10;homebe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/HomeBean.kt&#10;videobe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/VideoBean.kt&#10;Findf&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/FindFragment.kt&#10;mine&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/res/layout/mine_fragment.xml&#10;Findad&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/FindAdapter.kt&#10;min&#9;null&#9;null&#10;ran&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/RankAdapter.kt&#10;Home&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/HomeAdatper.kt&#10;RANK&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter/RankAdapter.kt&#10;Hotbe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/HotBean.kt&#10;HO&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HomeFragment.kt&#10;hotmo&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/HotModel.kt&#10;api&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/network/api.kt&#10;Rank&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/RankFragment.kt&#10;Homefr&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HomeFragment.kt&#10;item&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/res/layout/item_find.xml&#10;Hot&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HotFragment.kt&#10;homebean&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/HomeBean.kt&#10;Api&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/network/api.kt&#10;Findbe&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/model/bean/FindBean.kt&#10;apiser&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/network/ApiService.kt&#10;ho&#9;FILE&#9;file:///Users/lvruheng/Documents/GitHub/Eyepetizer-in-Kotlin/app/src/main/java/com/tt/lvruheng/eyepetizer/ui/fragment/HomeFragment.kt" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="device.picker.selection" value="59dd958e" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1703483812688" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.tt.lvruheng.eyepetizer.mvp.contract" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/tt/lvruheng/eyepetizer/adapter" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/tt/lvruheng/eyepetizer/ui" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/presenter" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.tt.lvruheng.eyepetizer.mvp.contract" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2182,259 +2187,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Eyepetizer-in-Kotlin" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="app" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android App.app" />
-    </list>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -2444,19 +2196,98 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
     </configuration>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Eyepetizer-in-Kotlin.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="PROFILING_MODE" value="NOT_SET" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -2855,8 +2686,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="我的页面实现" />
@@ -2885,12 +2724,6 @@
     <MESSAGE value="修改判断条件" />
     <MESSAGE value="项目说明" />
     <option name="LAST_COMMIT_MESSAGE" value="项目说明" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="35" />
-    </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tt/lvruheng/eyepetizer/mvp/contract/ResultContract.kt">
@@ -2967,28 +2800,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/content/SharedPreferences.java">
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-25/android/content/SharedPreferences.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="258" column="11" lean-forward="false" selection-start-line="258" selection-start-column="11" selection-end-line="258" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/os/AsyncTask.java">
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-25/android/os/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="658" column="0" lean-forward="false" selection-start-line="658" selection-start-column="0" selection-end-line="658" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/os/Handler.java">
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-25/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/os/Looper.java">
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-25/android/os/Looper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
@@ -3040,7 +2873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/zlc.season/rxdownload2/2.0.4/b941d45b949fd259f2ca3762b890a985233afec4/rxdownload2-2.0.4-sources.jar!/zlc/season/rxdownload2/entity/DownloadStatus.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/zlc.season/rxdownload2/2.0.4/b941d45b949fd259f2ca3762b890a985233afec4/rxdownload2-2.0.4-sources.jar!/zlc/season/rxdownload2/entity/DownloadStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="28" />
@@ -3098,21 +2931,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.7/cb9b3491633d4018e4e38bb9ca4449434560b47/rxjava-2.0.7-sources.jar!/io/reactivex/disposables/Disposable.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.7/cb9b3491633d4018e4e38bb9ca4449434560b47/rxjava-2.0.7-sources.jar!/io/reactivex/disposables/Disposable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/zlc.season/rxdownload2/2.0.4/b941d45b949fd259f2ca3762b890a985233afec4/rxdownload2-2.0.4-sources.jar!/zlc/season/rxdownload2/RxDownload.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/zlc.season/rxdownload2/2.0.4/b941d45b949fd259f2ca3762b890a985233afec4/rxdownload2-2.0.4-sources.jar!/zlc/season/rxdownload2/RxDownload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="108" column="18" lean-forward="false" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/content/Context.java">
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-25/android/content/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="781" column="51" lean-forward="false" selection-start-line="781" selection-start-column="37" selection-end-line="781" selection-end-column="51" />
