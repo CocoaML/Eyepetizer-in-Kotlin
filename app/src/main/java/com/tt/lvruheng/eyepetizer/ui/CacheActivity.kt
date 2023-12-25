@@ -24,7 +24,7 @@ class CacheActivity : AppCompatActivity() {
     var mList = ArrayList<VideoBean>()
     lateinit var mAdapter: DownloadAdapter
     var mHandler: Handler = object : Handler() {
-        override fun handleMessage(msg: Message?) {
+        override fun handleMessage(msg: Message) {
             super.handleMessage(msg)
             var list = msg?.data?.getParcelableArrayList<VideoBean>("beans")
             if (list?.size?.compareTo(0) == 0) {

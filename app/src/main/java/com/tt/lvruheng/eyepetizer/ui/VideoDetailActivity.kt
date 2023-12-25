@@ -43,7 +43,7 @@ class VideoDetailActivity : AppCompatActivity() {
     var isPause: Boolean = false
     lateinit var orientationUtils: OrientationUtils
     var mHandler: Handler = object : Handler() {
-        override fun handleMessage(msg: Message?) {
+        override fun handleMessage(msg: Message) {
             super.handleMessage(msg)
             when (msg?.what) {
                 MSG_IMAGE_LOADED -> {
@@ -57,7 +57,7 @@ class VideoDetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_video_detail)
-        bean = intent.getParcelableExtra<VideoBean>("data")
+        bean = intent.getParcelableExtra<VideoBean>("data") as VideoBean
         initView()
         prepareVideo()
     }
@@ -241,7 +241,7 @@ class VideoDetailActivity : AppCompatActivity() {
         }
     }
 
-    override fun onConfigurationChanged(newConfig: Configuration?) {
+    override fun onConfigurationChanged(newConfig: Configuration) {
         super.onConfigurationChanged(newConfig)
         if (isPlay && !isPause) {
             if (newConfig?.orientation == ActivityInfo.SCREEN_ORIENTATION_USER) {

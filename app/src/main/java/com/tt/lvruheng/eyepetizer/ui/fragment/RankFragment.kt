@@ -26,7 +26,7 @@ class RankFragment : BaseFragment(), HotContract.View {
         mAdapter = RankAdapter(context, mList)
         recyclerView.adapter = mAdapter
         if (arguments != null) {
-            mStrategy = arguments.getString("strategy")
+            mStrategy = arguments.getString("strategy") as String
             mPresenter = HotPresenter(context, this)
             mPresenter.requestData(mStrategy)
         }

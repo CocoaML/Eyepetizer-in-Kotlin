@@ -29,7 +29,7 @@ class ResultActivity : AppCompatActivity(), ResultContract.View, SwipeRefreshLay
         super.onCreate(savedInstanceState)
         ImmersionBar.with(this).transparentBar().barAlpha(0.3f).fitsSystemWindows(true).init()
         setContentView(R.layout.activity_result)
-        keyWord = intent.getStringExtra("keyWord")
+        keyWord = intent.getStringExtra("keyWord") ?: ""
         mPresenter = ResultPresenter(this, this)
         mPresenter.requestData(keyWord, start)
         setToolbar()

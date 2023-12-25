@@ -76,7 +76,7 @@ class FindDetailActivity : AppCompatActivity(), FindDetailContract.View, SwipeRe
         setSupportActionBar(toolbar)
         var bar = supportActionBar
         intent.getStringExtra("name")?.let {
-            name = intent.getStringExtra("name")
+            name = intent.getStringExtra("name").toString()
             bar?.title = name
         }
         bar?.setDisplayHomeAsUpEnabled(true)

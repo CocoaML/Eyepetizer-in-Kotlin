@@ -40,7 +40,7 @@ class SPUtils private constructor(context: Context,spName: String) {
      * @return 存在返回对应值，不存在返回默认值`defaultValue`
      */
     @JvmOverloads fun getString(key: String, defaultValue: String = ""): String {
-        return sp.getString(key, defaultValue)
+        return sp.getString(key, defaultValue) ?: ""
     }
 
     /**
@@ -160,7 +160,7 @@ class SPUtils private constructor(context: Context,spName: String) {
      * @return 存在返回对应值，不存在返回默认值`defaultValue`
      */
     @JvmOverloads fun getStringSet(key: String, defaultValue: Set<String> = Collections.emptySet()): Set<String> {
-        return sp.getStringSet(key, defaultValue)
+        return sp.getStringSet(key, defaultValue) as Set<String>
     }
 
     /**
